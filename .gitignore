@@ -10,6 +10,8 @@ __pycache__/
 # Virtual environment
 venv/
 .env
+**/__pycache__/
+*.pyc
 
 # ===============================
 # OS / Editor
@@ -38,6 +40,8 @@ Desktop.ini
 *.ogg
 *.flac
 audio_cache/
+voices/*
+!voices/.gitkeep
 
 # ===============================
 # Secrets
